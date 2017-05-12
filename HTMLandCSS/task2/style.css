@@ -1,0 +1,93 @@
+body{
+    margin:0px 40px;
+    background-color:#ddd;
+}
+nav{
+    background-color: skyblue;
+    line-height:55px;
+    height:55px;
+}
+nav ul{
+   float:right;
+   margin:0px;
+   padding:0px;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    color:black;
+}
+#miao{
+    height:55px;
+    float:left;
+}
+nar ul li:hover{
+    border-color: #ddd;
+}
+.first{
+    background-color: #fff;
+    margin:20px auto;
+    padding-left:2em;
+    padding-bottom:2em;
+}
+.meinv{
+    height:100px;
+    width:100px;
+    display:block;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+table,th,td,tr{
+    border:1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+}
+table{
+    min-width:800px;
+}
+
+th{
+    background-color:#000;
+    color:white;
+}
+table tr:last-child{
+    background-color: #ddd;
+}
+.aside{
+    max-width:1000px;
+    margin:20px auto;
+}
+form{
+    padding-top:20px;
+}
+.record{
+
+    width:40%;
+    text-align:right;
+    display:inline-block;
+}
+.txt{
+
+}
+.button{
+    font-size:1.5em;
+    margin: 20px auto;
+    display:block;
+    color:white;
+    background-color:skyblue;
+    width:500px;
+    height:50px;
+}
+.footer{
+    background-color:black;
+    color:white;
+    font-size:1.5em;
+    text-align:center;
+    line-height: 4em;
+}
+
